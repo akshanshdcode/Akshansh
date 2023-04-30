@@ -14,4 +14,9 @@ public class RestControllerTst {
 	public String hello() {
 		return "hello world!";
 	}
+	
+	@GetMapping("/hello")
+	public String akshansh() {
+		return "Hi, i am akshansh";
+	}
 }
