@@ -15,7 +15,7 @@ public class RestControllerTst {
 		return "hello world!";
 	}
 	
-	@GetMapping("/hello")
+	@GetMapping("/akshansh")
 	public String akshansh() {
 		return "Hi, i am akshansh";
 	}
