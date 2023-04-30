@@ -9,4 +9,9 @@ public class RestControllerTst {
 	public String home() {
 		return "Welcome to Student Info Application";
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello world!";
+	}
 }
